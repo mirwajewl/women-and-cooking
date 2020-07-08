@@ -1,0 +1,110 @@
+
+
+ *{ 
+      margin: 0px;
+    padding: 0px;
+    } 
+    
+    .header{
+        width: 100%; 
+        height: 80px; 
+        display: block; 
+        background-color: peachpuff;
+    }
+    
+    .inner_header{
+        width: 1000px; 
+        height: 100%; 
+        display: block; 
+        margin: 0 auto; 
+        font-family: 'Montserrat'; 
+        background-color: peachpuff;
+    }
+    
+    .logo_container{
+        height:100%; 
+        display: table; 
+        float: left; 
+        margin: 20px;
+        padding: 5px;  
+    }
+    
+    .logo_container h1{
+        color: white; 
+        height: 100%;
+        display: table-cell; 
+        vertical-align: middle; 
+        font-family: 'Montserrat'; 
+        font-size: 32px; 
+    
+    }
+    
+    .navigation{
+        float: right; 
+        height: 100%; 
+    }
+    
+    .navigation a{
+        height: 100%; 
+        display: table; 
+        float: left; 
+        padding: 0px 20px; 
+    }
+    
+    .navigation a li{
+        display: table-cell; 
+        vertical-align: middle; 
+        height: 100%; 
+        color: white; 
+        font-family: 'Montserrat'; 
+        font-size: 15px; 
+    
+    }
+.img-cooking {
+    width: 500px;
+    float: right; 
+    margin-left: 20px; 
+}
+
+body { 
+    background-color:peachpuff;
+    color: grey;
+    font-family: Arial, Hlvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6em;
+     margin: 0;
+
+}
+
+
+
+a{
+text-decoration:none;
+color: #000;
+}
+
+a:hover{
+color: rgba(13, 109, 50, 0.986);
+}
+
+a:active{
+color:green;
+}
+
+.container  {
+    width: 80%;
+    margin:auto;
+ }
+
+ .button {
+    background-color:#333;
+    color:#fff;
+    padding: 10px 15px;
+    border: none; 
+}
+.button:hover {
+    background: rgba(13, 109, 50, 0.986); 
+    color: #fff; 
+
+}
