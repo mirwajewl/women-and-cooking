@@ -10,7 +10,10 @@ function scrollFunction() {
   }
 };
 
+$('#go-top-button').each(function(){
+  $(this).click(function(){ 
+      $('html,body').animate({ scrollTop: 0 }, 'slow');
+      return false; 
+  });
+});
 
-function topFunction() {
-  $(window).scrollTop(0);
-}

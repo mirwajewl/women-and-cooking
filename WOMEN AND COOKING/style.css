@@ -1,7 +1,7 @@
 
 
  *{ 
-      margin: 0px;
+    margin: 0px;
     padding: 0px;
     } 
 
@@ -17,7 +17,7 @@
 
     body {
         display: flex; 
-        background-color: peachpuff;
+        background-color: #fff1e5;
         flex-direction: column;
         padding-top: 56px; 
         min-height: 100vh;  
@@ -53,17 +53,17 @@
     width: 80%;
     margin:auto;
     margin-top: 100px;
-    background-color: peachpuff;
+    background-color: #fff1e5;
  }
 
  .button {
-    background-color: peachpuff;
+    background-color: #ecded0;
     box-align: right; /* button not aligning to the right*/
     font-family: 'Raleway', sans-serif;
     color: grey;
     padding: 15px 15px;
     border-radius: 12%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 .button:hover {
     background: #222;
@@ -139,7 +139,7 @@
 footer {
     display: flex;  
     justify-content: center;  
-    background-color: peachpuff;
+    background-color: #fff1e5;
     height: 100px;
     padding: 20px;
   }
