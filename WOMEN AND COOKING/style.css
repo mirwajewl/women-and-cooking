@@ -58,7 +58,7 @@
 
  .button {
     background-color: peachpuff;
-    box-align: right; /* button not aligning to the right*/
+    float: right; /* button not aligning to the right*/
     font-family: 'Raleway', sans-serif;
     color: grey;
     padding: 15px 15px;
@@ -105,6 +105,9 @@
   .container1 {
     border-radius: 5px;
     background-color: #f2f2f2;
+    width: 80%;
+    margin:auto;
+    margin-top: 100px;
     padding: 10px;
   }
   
@@ -165,7 +168,7 @@ footer {
   }
   
   #go-top-button {
-    color: white;
+    color: black;
     position: fixed;  
     bottom: 20px;  
     right: 30px;  
