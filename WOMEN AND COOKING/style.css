@@ -93,15 +93,16 @@
   * {
     box-sizing: border-box;
   }
-  
-  .col-sm-6 img{ width:200px
-  }
+
   
   .creators {
     font-family: 'Playfair Display', serif;
     text-align: center;
     letter-spacing: 4px;
   }
+
+
+
 
   /* Style inputs */
   input[type=text], select, textarea {
